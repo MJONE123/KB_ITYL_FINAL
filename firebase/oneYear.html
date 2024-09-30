@@ -2,113 +2,124 @@
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>allabo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>allabo</title>
 </head>
 
 <body>
-    <button id="googleLogin">구글 아이디로 로그인</button>
+  <button id="googleLogin">구글 아이디로 로그인</button>
+  <form id="temp-form">
+    핸드폰 번호 : <input id="phoneNumber" />
+    <button id="phoneNumberButton">핸드폰 번호 전송</button>
+    <div id="recaptcha-container"></div>
+  </form>
+  <form>
+    확인 코드 : <input id="confirmCode" />
+    <button id="confirmCodeButton">확인 코드 전송</button>
+  </form>
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        const { initializeApp } = await import("https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js");
+        const { getAuth, signInWithPopup, GoogleAuthProvider, signInWithPhoneNumber, RecaptchaVerifier } =
+          await import("https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js");
 
-    <form id="temp-form">
-        핸드폰 번호 : <input id="phoneNumber" />
-        <button id="phoneNumberButton">핸드폰 번호 전송</button>
-        <div id="recaptcha-container"></div> <!-- reCAPTCHA 렌더링을 위한 컨테이너 -->
-    </form>
-
-    <form>
-        확인 코드 : <input id="confirmCode" />
-        <button id="confirmCodeButton">확인 코드 전송</button>
-    </form>
-
-    <script type="module">
-        // Firebase SDK 불러오기
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
-        import { getAuth, signInWithPopup, GoogleAuthProvider, signInWithPhoneNumber, RecaptchaVerifier } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js";
-
-        // Firebase 설정
         const firebaseConfig = {
-            apiKey: "AIzaSyD6AMxiZJAoqx5_cJhhRMD3OJHFsQL39GQ",
-            authDomain: "allabo.firebaseapp.com",
-            projectId: "allabo",
-            storageBucket: "allabo.appspot.com",
-            messagingSenderId: "146321755351",
-            appId: "1:146321755351:web:f4dbec6eb05d6ba4d93492",
-            measurementId: "G-P5PYFPLZVM"
+          apiKey: "AIzaSyD6AMxiZJAoqx5_cJhhRMD3OJHFsQL39GQ",
+          authDomain: "allabo.firebaseapp.com",
+          projectId: "allabo",
+          storageBucket: "allabo.appspot.com",
+          messagingSenderId: "146321755351",
+          appId: "1:146321755351:web:f4dbec6eb05d6ba4d93492",
+          measurementId: "G-P5PYFPLZVM"
         };
 
-        // Firebase 초기화
         const app = initializeApp(firebaseConfig);
+        console.log("Firebase app initialized:", app);
+
         const auth = getAuth(app);
-        auth.languageCode = "ko"; // 한국어 설정
+        console.log("Auth instance created:", auth);
+
+        auth.languageCode = "ko";
+
+        // reCAPTCHA 초기화 함수
+        async function setUpRecaptcha() {
+          return new Promise((resolve, reject) => {
+            setTimeout(() => {
+              try {
+                const recaptchaContainer = document.getElementById('recaptcha-container');
+                if (!recaptchaContainer) {
+                  throw new Error("reCAPTCHA container not found in DOM");
+                }
+
+                window.recaptchaVerifier = new RecaptchaVerifier(auth, 'recaptcha-container', {
+                  size: 'invisible',
+                  callback: (response) => {
+                    console.log('reCAPTCHA solved, verification process can continue.');
+                  }
+                });
+                console.log("reCAPTCHA verifier created:", window.recaptchaVerifier);
+                resolve(window.recaptchaVerifier);
+              } catch (error) {
+                console.error("Error setting up reCAPTCHA:", error);
+                reject(error);
+              }
+            }, 1000); // 1초 지연
+          });
+        }
+
+        await setUpRecaptcha();
 
         // Google 로그인 버튼
         document.getElementById('googleLogin').addEventListener('click', () => {
-            const provider = new GoogleAuthProvider();
-            signInWithPopup(auth, provider)
-                .then((result) => {
-                    const user = result.user;
-                    console.log('Google 로그인 성공:', user);
-                })
-                .catch((error) => {
-                    console.error('Google 로그인 오류:', error);
-                });
+          const provider = new GoogleAuthProvider();
+          signInWithPopup(auth, provider)
+            .then((result) => {
+              const user = result.user;
+              console.log('Google 로그인 성공:', user);
+            })
+            .catch((error) => {
+              console.error('Google 로그인 오류:', error);
+            });
         });
 
-        // reCAPTCHA 초기화
-        function setUpRecaptcha() {
-            window.recaptchaVerifier = new RecaptchaVerifier('recaptcha-container', {
-                'size': 'invisible', // 보이지 않게 설정
-                'callback': (response) => {
-                    // reCAPTCHA 해결 시 콜백
-                    console.log('reCAPTCHA solved, verification process can continue.');
-                }
-            }, auth);
-        }
-
-        // 페이지가 로드될 때 reCAPTCHA 설정
-        setUpRecaptcha();
-
         // 핸드폰 번호 인증 버튼
-        document.getElementById("phoneNumberButton").addEventListener("click", (event) => {
-            event.preventDefault(); // 기본 동작 방지
-
-            const phoneNumber = document.getElementById("phoneNumber").value;
-            const appVerifier = window.recaptchaVerifier; // reCAPTCHA 객체 가져오기
-
-            // 전화번호로 로그인 요청
-            signInWithPhoneNumber(auth, "+82" + phoneNumber, appVerifier)
-                .then((confirmationResult) => {
-                    // SMS 전송 성공 시
-                    window.confirmationResult = confirmationResult; // 확인 코드 처리 객체 저장
-                    console.log('SMS 전송 성공:', confirmationResult);
-                })
-                .catch((error) => {
-                    // SMS 전송 실패 시
-                    console.error('SMS 전송 오류:', error);
-                });
+        document.getElementById("phoneNumberButton").addEventListener("click", async (event) => {
+          event.preventDefault();
+          const phoneNumber = document.getElementById("phoneNumber").value;
+          console.log("Attempting phone number verification for:", phoneNumber);
+          try {
+            const appVerifier = window.recaptchaVerifier;
+            if (!appVerifier) {
+              throw new Error("reCAPTCHA verifier not initialized");
+            }
+            const confirmationResult = await signInWithPhoneNumber(auth, "+82" + phoneNumber, appVerifier);
+            window.confirmationResult = confirmationResult;
+            console.log('SMS 전송 성공:', confirmationResult);
+          } catch (error) {
+            console.error('SMS 전송 오류:', error);
+          }
         });
 
         // 확인 코드 인증 버튼
-        document.getElementById("confirmCodeButton").addEventListener("click", (event) => {
-            event.preventDefault(); // 기본 동작 방지
-
-            const code = document.getElementById("confirmCode").value;
-
-            // 확인 코드로 인증
-            window.confirmationResult.confirm(code)
-                .then((result) => {
-                    // 사용자 인증 성공 시
-                    const user = result.user;
-                    console.log('인증 성공:', user);
-                })
-                .catch((error) => {
-                    // 확인 코드 인증 실패 시
-                    console.error('인증 오류:', error);
-                });
+        document.getElementById("confirmCodeButton").addEventListener("click", async (event) => {
+          event.preventDefault();
+          const code = document.getElementById("confirmCode").value;
+          try {
+            const result = await window.confirmationResult.confirm(code);
+            const user = result.user;
+            console.log('인증 성공:', user);
+          } catch (error) {
+            console.error('인증 오류:', error);
+          }
         });
 
-    </script>
+      } catch (error) {
+        console.error("Error initializing Firebase:", error);
+      }
+    });
+  </script>
 </body>
 
 </html>
