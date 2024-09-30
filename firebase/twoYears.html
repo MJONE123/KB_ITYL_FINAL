@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <form>
+        <h1>회원가입</h1>
+        <div>
+            이메일 : <input type="email" id="signUpEmail">
+        </div>
+        <div>
+            password : <input type="password" id="signUpPassword">
+        </div>
+        <button type="submit" id="signUpButton">회원가입하기</button>
+        <button> 로그인 하러 가기</button>
+    </form>
+
+    <form>
+        <h1>로그인</h1>
+        <div> email : <input type="email" id="signInEmail" /> </div>
+        <div> password : <input type="password" id="signInPassword" /> </div>
+        <button type="submit" id="signInButton">로그인 하기</button>
+        <button>회원가입 하러 가기</button>
+    </form>
+
+    <script type="module">
+        // Firebase 설정
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js";
+      
+        // Firebase 구성 정보
+        const firebaseConfig = {
+            apiKey: "AIzaSyD6AMxiZJAoqx5_cJhhRMD3OJHFsQL39GQ",
+            authDomain: "allabo.firebaseapp.com",
+            projectId: "allabo",
+            storageBucket: "allabo.appspot.com",
+            messagingSenderId: "146321755351",
+            appId: "1:146321755351:web:f4dbec6eb05d6ba4d93492",
+            measurementId: "G-P5PYFPLZVM"
+        };
+      
+        // Firebase 초기화
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth();
+
+        // 회원가입 버튼 클릭 이벤트
+        document.getElementById('signUpButton').addEventListener('click', (event) => {
+            event.preventDefault();
+            const signUpEmail = document.getElementById('signUpEmail').value;
+            const signUpPassword = document.getElementById('signUpPassword').value;
+
+            createUserWithEmailAndPassword(auth, signUpEmail, signUpPassword)
+                .then((userCredential) => {
+                    console.log(userCredential);
+                    // 회원가입 성공
+                    const user = userCredential.user;
+                })
+                .catch((error) => {
+                    console.log('회원가입 실패');
+                    console.error(error);
+                });
+        });
+
+        // 로그인 버튼 클릭 이벤트
+        document.getElementById('signInButton').addEventListener('click', (event) => {
+            event.preventDefault();
+            const signInEmail = document.getElementById('signInEmail').value;
+            const signInPassword = document.getElementById('signInPassword').value;
+
+            signInWithEmailAndPassword(auth, signInEmail, signInPassword)
+                .then((userCredential) => {
+                    console.log(userCredential);
+                    // 로그인 성공
+                    const user = userCredential.user;
+                })
+                .catch((error) => {
+                    console.log('로그인 실패');
+                    console.error(error);
+                });
+        });
+    </script>
+</body>
+</html>
