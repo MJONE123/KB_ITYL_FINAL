@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase SMS 인증</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      input,
+      button {
+        margin: 10px 0;
+        padding: 5px;
+      }
+
+      #error-message {
+        color: red;
+      }
+
+      #recaptcha-container{
+        width: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Firebase SMS 인증</h1>
+    <div id="recaptcha-container"></div>
+    <input
+      type="text"
+      id="phone-number"
+      placeholder="전화번호 입력 (+8210xxxxxxxx)"
+    />
+    <button id="sendCodeBtn" onclick="sendCode()" disabled>
+      인증코드 전송
+    </button>
+    <div id="error-message"></div>
+    <br /><br />
+    <input type="text" id="verification-code" placeholder="인증코드 입력" />
+    <button onclick="verifyCode()">인증코드 확인</button>
+
+    <script type="module">
+      import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js';
+      import {
+        getAuth,
+        signInWithPhoneNumber,
+        RecaptchaVerifier,
+      } from 'https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js';
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyD6AMxiZJAoqx5_cJhhRMD3OJHFsQL39GQ",
+        authDomain: "allabo.firebaseapp.com",
+        projectId: "allabo",
+        storageBucket: "allabo.appspot.com",
+        messagingSenderId: "146321755351",
+        appId: "1:146321755351:web:f4dbec6eb05d6ba4d93492",
+        measurementId: "G-P5PYFPLZVM"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+      auth.languageCode = 'ko';
+
+      let retryCount = 0;
+      let lastAttemptTime = 0;
+
+      async function setUpRecaptcha() {
+        try {
+          const recaptchaContainer = document.getElementById(
+            'recaptcha-container'
+          );
+          if (!recaptchaContainer) {
+            throw new Error('reCAPTCHA container not found in DOM');
+          }
+
+          window.recaptchaVerifier = new RecaptchaVerifier(
+            auth,
+            'recaptcha-container',
+            {
+              size: 'normal',
+              callback: (response) => {
+                console.log(
+                  'reCAPTCHA solved, verification process can continue.'
+                );
+                document.getElementById('sendCodeBtn').disabled = false;
+              },
+              'expired-callback': () => {
+                console.log('reCAPTCHA expired. Please solve it again.');
+                document.getElementById('sendCodeBtn').disabled = true;
+              },
+            }
+          );
+          console.log('reCAPTCHA verifier created:', window.recaptchaVerifier);
+          await window.recaptchaVerifier.render();
+        } catch (error) {
+          console.error('Error setting up reCAPTCHA:', error);
+          document.getElementById('error-message').textContent =
+            'reCAPTCHA 설정 오류: ' + error.message;
+        }
+      }
+
+      window.sendCode = async function () {
+        const phoneNumber = document.getElementById('phone-number').value;
+
+        console.log('!!');
+
+        try {
+          const appVerifier = window.recaptchaVerifier;
+          console.log('Attempting to send SMS to:', phoneNumber);
+
+          const confirmationResult = await signInWithPhoneNumber(
+            auth,
+            phoneNumber,
+            appVerifier
+          );
+          window.confirmationResult = confirmationResult;
+          console.log('SMS sent successfully');
+          alert('인증 코드가 전송되었습니다. 메시지를 확인해 주세요.');
+          document.getElementById('error-message').textContent = '';
+        } catch (error) {
+          console.error('Error sending SMS:', error.code, error.message);
+
+          if (error.code === 'auth/captcha-check-failed') {
+            document.getElementById('error-message').textContent =
+              'reCAPTCHA 인증에 실패했습니다. 다시 시도해 주세요.';
+            try {
+              await window.recaptchaVerifier.render();
+            } catch (renderError) {
+              console.error('Error re-rendering reCAPTCHA:', renderError);
+            }
+          } else {
+            document.getElementById(
+              'error-message'
+            ).textContent = `SMS 전송 실패: ${error.message}`;
+          }
+        }
+      };
+
+      window.verifyCode = async function () {
+        const code = document.getElementById('verification-code').value;
+        try {
+          const result = await window.confirmationResult.confirm(code);
+          const user = result.user;
+          console.log('User signed in:', user);
+          alert('인증에 성공했습니다!');
+          document.getElementById('error-message').textContent = '';
+        } catch (error) {
+          console.error('Error verifying code:', error);
+          document.getElementById('error-message').textContent =
+            '인증 코드 확인 실패: ' + error.message;
+        }
+      };
+
+      document.addEventListener('DOMContentLoaded', setUpRecaptcha);
+    </script>
+  </body>
+</html>
