@@ -1,4 +1,10 @@
 package com.allabo.fyl.repository;
 
-public class ProductRepository {
+import com.allabo.fyl.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
+    List<Product> findByCategory(String category);
 }
