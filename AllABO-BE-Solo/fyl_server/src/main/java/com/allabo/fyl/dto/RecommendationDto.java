@@ -7,5 +7,6 @@ public class RecommendationDto {
     // 기타 설문 관련 필드들
 
     // getter, setter
+
 }
 
