@@ -1,0 +1,173 @@
+대출 종류,상품이름,url,조건,개설 채널,대출 금액
+신용대출,KB 직장인든든 신용대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000159&QSL=F,직장인이라면,스타뱅킹,최고 3억원
+신용대출,KB 직장인든든 신용대출(공무원/교직원),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000160&QSL=F,정규직 공무원/교직원이라면,스타뱅킹,최고 3억원
+신용대출,KB 직장인든든 신용대출(금융인),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000161&QSL=F,금융인을 위한,스타뱅킹,최고 3억원
+신용대출,KB 직장인든든 신용대출(군인),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000162&QSL=F,군인 고객님을 위한,스타뱅킹,최고 3억원
+신용대출,KB 온국민 신용대출(신규),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001347&QSL=F,근로소득이 발생되는 국민 누구나!,스타뱅킹,최고 3.5억원
+신용대출,KB 비상금대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001319&QSL=F,비대면으로 간편하게 신청하고 바로 사용하는!,스타뱅킹,최고 3백만원
+신용대출,KB 새희망홀씨Ⅱ,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000029&QSL=F,서민층 긴급자금을 지원하는,스타뱅킹,최고 35백만원
+신용대출,KB새희망홀씨 긴급생계자금,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000067&QSL=F,새희망홀씨 성실상환고객에게,영업점,최고 5백만원
+신용대출,KB 국민ONE대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000066&QSL=F,우수고객님은 대출도 ONE샷!,스타뱅킹,최고 2천만원
+신용대출,KB STAR CLUB 신용대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001158&QSL=F,KB STAR CLUB 고객을 위한 우수고객 전용 상품,스타뱅킹,최고 2.5억원
+신용대출,KB 온국민 신용대출(갈아타기),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001334&QSL=F,근로소득이 발생되는 국민 누구나!,스타뱅킹,최고 3.5억원
+신용대출,KB i-star 직장인 신용대출(본부승인대출),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000063&QSL=F,선정된 우량업체 소속 임직원을 위한,스타뱅킹,최고 업체별 승인한도 이내
+신용대출,KB나라사랑대출(일반자금),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000114&QSL=F,,영업점,최고 국가보훈부 추천금액
+신용대출,KB 4대연금 신용대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000255&QSL=F,4대연금(국민/군인/사학/공무원연금) 수급자라면,영업점,최고 1억원
+신용대출,KB 햇살론15 Ⅱ NEW,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001381&QSL=F,NEW,영업점,최고 14백만원이내
+신용대출,KB 제휴 대환 신용대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001321&QSL=F,씨티은행 개인 신용대출 보유 고객이라면!!,스타뱅킹,"최고 한국씨티은행 개인신용대출 대출잔액 그대로"
+신용대출,KB 공무원우대대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000021&QSL=F,"퇴직금, 재직기간따라 한도 조정",스타뱅킹,최고 5천만원
+신용대출,KB 급여이체신용대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000030&QSL=F,KB로 급여 받으면 우대받는,영업점,최고 1억5천만원
+신용대출,신용대출 장기분할상환 전환제도,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000134&QSL=F,,영업점,최고 전환대출 신청시점의 대출잔액
+신용대출,KB 사업자든든 신용대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001296&QSL=F,자영업자 및 프리랜서 고객님들의 생활안정을 위한,스타뱅킹,최고 1억원
+신용대출,"군인생활안정자금대출 (KB i-STAR 군인생활안정자금대출)",https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000020&QSL=F,나라를 지키는 당신을 위한,스타뱅킹,최고 8천만원
+신용대출,KB 군인연금 협약대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000154&QSL=F,군인이면 누구나,영업점,최고 2억원
+신용대출,KB Star 신용대출[2021.08.30 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000149&QSL=F,복잡한 우대금리·중도상환수수료 NO,영업점,최고 3억원
+신용대출,KB닥터론,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000001&QSL=F,의료인을 위한 맞춤 대출,영업점,최고 4억원
+신용대출,KB 햇살론17[2021.07.06 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000157&QSL=F,고금리대출의 대안상품,영업점,최고 1천4백만원
+신용대출,공무원 연금수급권자 신용대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000095&QSL=F,퇴직 공무원(군무원)을 위한,영업점,최고 3천만원
+신용대출,KB 브릿지보증대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001314&QSL=F,,영업점,최고 신용보증재단 「브릿지보증서」보증금액 범위 내
+신용대출,에이스(ACE) 전문직 무보증대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000022&QSL=F,전문직 종사자는 무보증으로,영업점,최고 3억원
+신용대출,Liiv M 폰 드림 대출[2022.04.29 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001303&QSL=F,Liiv M 개통 고객의 단말기 구매지원을 위한 신용대출 상품,영업점,최고 3백만원
+신용대출,KB 선생님든든 신용대출(교직원),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000106&QSL=F,재직중인 교직원을 위한,영업점,최고 3억원
+신용대출,KB 내맘대로 마이너스 통장,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000165&QSL=F,판매중단 상품,영업점,최고 1억원
+신용대출,KB군인든든 신용대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN02000004&QSL=F,직업군인을 위한 맞춤 신용대출,영업점,최고 2억원
+신용대출,KT 관련 재직직원에 대한 대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000017&QSL=F,"KT,KT DS,KT CLOUD 재직중인 직원 대상",영업점,최고 2억원
+신용대출,KB 금융전문인 우대대출[2019.09.27 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000055&QSL=F,판매중단 상품,영업점,최고 1억5천만원
+신용대출,KB 처음EASY 신용대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001318&QSL=F,"사회초년생, 주부 등을 위한",영업점,"최고 1,000만원"
+신용대출,KB 사잇돌 중금리대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000075&QSL=F,서민층 생활안정 중금리대출,영업점,최고 2천만원
+신용대출,KB 행복드림론 Ⅱ(i-STAR 행복드림론 Ⅱ-자영업자),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000068&QSL=F,"자영업자,프리랜서라면 이 상품",영업점,최고 1천만원
+신용대출,KB로이어론,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000308&QSL=F,법조인을 위한 맞춤 대출,영업점,최고 4억원
+신용대출,KB 국민희망대출[2023.02.03. 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000062&QSL=F,제2금융권 대출자에 희망주는,영업점,최고 5천만원
+신용대출,KB i-STAR 직장인행복신용대출[2019.02.27 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000070&QSL=F,판매중단 상품,영업점,최고 3천만원
+신용대출,휴·폐업 개인사업자 신용대출의 가계장기분할상환 전환제도,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000133&QSL=F,,영업점,최고 전환대출 신청시점의 대출잔액 범위 이내
+신용대출,KB 햇살론15 [2024.06.30. 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001304&QSL=F,고금리대출의 대안상품,영업점,최고 2천만원이내
+신용대출,KB 국민희망대출(제2금융권대환),https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001336&QSL=F,제2금융권 신용대출 대환 전용 상품,영업점,최고 1억원
+신용대출,서울특별시 노원구 협약대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000151&QSL=F,확정금리 2.0% 제공~!,영업점,최고 3천만원
+신용대출,KB 사업자 가계행복대출[2021.03.30 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000059&QSL=F,자영업자 및 프리랜서 고객님들의 생활안정을 위한,영업점,최고 1억원
+신용대출,KB Star*t 신용대출[2019.09.27 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000061&QSL=F,판매중단 상품,영업점,최고 5천만원
+신용대출,KB 햇살론뱅크,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001317&QSL=F,"정책서민금융상품 성실 상환 고객님을 위한 ""징검다리"" 상품",영업점,최고 2천5백만원 이내
+신용대출,KB 바꿔드림론[2019.11.05 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000036&QSL=F,판매중단 상품,영업점,최고 보증서 대출예정금액
+신용대출,KB 대학생·청년 햇살론[2020.05.14 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000043&QSL=F,판매중단상품,영업점,최고 보증서 대출예정금액
+신용대출,KB 평생파트너 신용대출[2019.09.27 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000052&QSL=F,판매중단 상품,영업점,최고 1억5천만원
+신용대출,KB WISE 직장인대출[2019.09.27 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000053&QSL=F,판매중단 상품,영업점,최고 1억5천만원
+신용대출,KB 스마트 직장인대출[2019.09.27 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000056&QSL=F,판매중단 상품,영업점,최고 1억5천만원
+신용대출,KB 가맹점대표 신용대출[2021.03.30 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000058&QSL=F,가맹점주의 성공을 지원하는,영업점,최고 1억5천만원
+신용대출,KB 개인택시 행복대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000080&QSL=F,개인택시 사장님 생활지원,영업점,최고 5천만원
+신용대출,KB사립학교교직원우대대출,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000048&QSL=F,사립학교 교직원 생활안정을 돕는,영업점,최고 3천만원
+신용대출,KB 국민행복 신용대출[2020.5.29 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000054&QSL=F,소득 또는 거래실적을 통한 대출,영업점,최고 1억원
+신용대출,KB 리더스 신용대출[2020.5.29 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000057&QSL=F,우량고객님께 만족을 드리는,영업점,최고 2억원
+신용대출,KB 징검다리론,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000069&QSL=F,성실상환 고객을 위한 대출,영업점,최고 3천만원
+신용대출,KB 주거래고객 우대대출[2019.02.27 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000097&QSL=F,판매중단 상품,영업점,최고 5천만원
+신용대출,KB 안전망 대출[2019.11.05 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000102&QSL=F,판매중단 상품,영업점,최고 2천만원
+신용대출,휴·폐업 개인사업자 신용대출에 대한 가계대출 채무조정프로그램,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000131&QSL=F,,영업점,최고 전환대출 신청시점의 대출잔액(이자 포함)
+신용대출,채무조정프로그램,https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000138&QSL=F,,영업점,
+신용대출,KB 가업승계기업 상속/증여세 납부자금대출(신용)[2022.9.30 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000145&QSL=F,,영업점,최고 최고 3억원 이내
+신용대출,KB 안전망대출II [2023.1.31 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20001305&QSL=F,연20% 초과 고금리 대출에 대한 대환상품,영업점,최고 2천만원
+신용대출,부산광역시 동구 협약대출[2022.06.10 판매중단],https://obank.kbstar.com/quics?page=C103429&cc=b104363:b104516&isNew=N&prcode=LN20000132&QSL=F,부산광역시 동구 융자추천고객 대상,영업점,최고 2천만원
+담보대출,KB 청약(주택종합저축)담보대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000065&QSL=F,청약 상품을 담보로 받는,스타뱅킹,최고 납입액의 95% 이내
+담보대출,당행 예부적금 등 수신금리연동담보대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000016&QSL=F,KB가입상품을 담보로 대출하는,스타뱅킹,최고 예부적금잔액의 95%
+담보대출,KB 주택담보대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20001160&QSL=F,혼합금리와 변동금리 중 선택이 가능한 주택담보대출,영업점,최고 대출가능금액 이내
+담보대출,주택자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000144&QSL=F,시행(시공)사 협약에 의한 주택자금대출,영업점,최고 소요자금 이내
+담보대출,KB 주택구입자금대출(집단 입주잔금대출),https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20001137&QSL=F,분양대금 잔금을 납부하려는 고객을 위한,영업점,최고 소요자금의 100% 이내(사업장별 승인한도 범위 내)
+담보대출,사회적배려 대상자 특례보증 전세자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000109&QSL=F,서민층 주거안정을 지원하는,영업점,최고 4천5백만원
+담보대출,임대주택 입주자 특례보증 전세자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000110&QSL=F,공공임대주택 입주자를 위한,영업점,최고 2억2천2백만원
+담보대출,신용회복지원자 특례보증 주택전세자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000128&QSL=F,신용회복지원중인 고객님의 전세자금을 지원하는,영업점,최고 6천만원
+담보대출,KB 일반부동산 담보대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20001162&QSL=F,일반부동산(주택 제외)을 담보로 신청가능한 대출상품,영업점,최고 대출가능금액 이내
+담보대출,KB스타 아파트담보대출(구입자금),https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20001350&QSL=F,KB 스타뱅킹 전용 아파트 담보대출,스타뱅킹,최고 최대 10억원
+담보대출,한국주택금융공사 아낌e-보금자리론,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000101&QSL=F,주택 구입에 필요한 자금은,인터넷 | 스타뱅킹,최고 3.6억원
+담보대출,KB골든라이프 공사주택연금론,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000011&QSL=F,평생거주와 연금지급을 정부가 보증,영업점,최고 보증서상의 보증금액
+담보대출,KB나라사랑대출(주택자금),https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000118&QSL=F,,영업점,최고 국가보훈부 추천금액
+담보대출,임대주택중도금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000119&QSL=F,,영업점,최고 소요자금이내
+담보대출,당타행 예부적금 등 유가증권 담보대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000141&QSL=F,,영업점,최고 대출가능금액 이내
+담보대출,KB 분할상환 모기지론,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000121&QSL=F,판매중단 상품,영업점,
+담보대출,KB 경락주택구입자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000027&QSL=F,판매중단 상품,영업점,최고 대출가능금액 이내
+담보대출,FOR YOU 장기대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000032&QSL=F,판매중단 상품,영업점,최고 대출가능금액 이내
+담보대출,한국주택금융공사 U-보금자리론,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000089&QSL=F,주택 구입에 필요한 자금은,영업점,최고 3.6억원
+담보대출,일반부동산 경락자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000122&QSL=F,판매중단 상품,영업점,
+담보대출,기존 근저당권 활용 주택자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000126&QSL=F,판매중단 상품,영업점,
+담보대출,장애인자립자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000135&QSL=F,보건복지부 선정 성년등록장애인 대상,영업점,최고 5천만원
+담보대출,법인 예금담보 임직원대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000163&QSL=F,직원복지 및 우리사주 취득 자금을 저금리 대출을 통해 지원~,영업점,최고 법인 추천 금액
+담보대출,KB 주택구입자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000025&QSL=F,판매중단 상품,영업점,최고 대출가능금액 이내
+담보대출,KB COFIX연동 모기지론,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000034&QSL=F,판매중단 상품,영업점,최고 대출가능금액 이내
+담보대출,KB내집연금 연계대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000072&QSL=F,주택연금론 신청시 기대출 상환지원,영업점,최고 1천만원
+담보대출,KB 그린리모델링 협약대출(가계),https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000100&QSL=F,에너지성능개선 공사 지원,영업점,최고 1억원
+담보대출,KB 골든라이프 주택연금론,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000115&QSL=F,고가 주택을 소유하고 있지만 생활비가 부족한 고객을 위한 은행 자체 주택연금론,영업점,
+담보대출,오피스텔 상가에 대한 중도금(잔금)대출(준주택 포함),https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000120&QSL=F,,영업점,최고 대출가능금액 이내
+담보대출,주택리모델링(개량)자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000123&QSL=F,판매중단 상품,영업점,
+담보대출,주택중도금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000124&QSL=F,집단승인을 받지 않은 분양주택 중도금 대출 지원,영업점,최고 소요자금의 100% 이내
+담보대출,부동산 담보대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000125&QSL=F,판매중단 상품,영업점,최고 대출가능금액 이내
+담보대출,주택신축자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000127&QSL=F,판매중단 상품,영업점,최고 소요자금의 100% 이내
+담보대출,부동산 담보대출 채무조정 전환제도,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000136&QSL=F,,영업점,최고 전환대출 신청시점의 대출잔액 범위 내
+담보대출,토지분양자금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000137&QSL=F,토지분양자금대출 지원,영업점,최고 분양계약서 상 분양가격의 50%와 지역별 대지의 담보평가금액 중 작은 금액
+담보대출,주택담보대출 채무조정 전환제도,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000139&QSL=F,,영업점,최고 전환대출 신청시점의 대출잔액 범위 내
+담보대출,KB 가업승계기업 상속/증여세 납부자금대출(부동산담보)[2022.9.30 판매중단],https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000143&QSL=F,,영업점,최고 대출가능금액 이내
+담보대출,KB임대보증금반환자금보증대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000148&QSL=F,임대보증금 반환자금을 지원하는 대출상품,영업점,최고 5천만원
+담보대출,KB 월상환액 고정형 주택담보대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000152&QSL=F,대출금리 변동에 관계없이 월상환액을 일정하게 유지하려면,영업점,최고 대출가능금액 이내
+담보대출,KB 적격전환대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000116&QSL=F,,영업점,최고 기존대출 잔액 범위 내에서 최고 3억원 이하
+담보대출,분양토지 중도금대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000117&QSL=F,,영업점,
+담보대출,안심전환대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN20000158&QSL=F,안심전환대출 자가진단 체크리스트는 스타뱅킹에서!,스타뱅킹,최고 3.6억원
+담보대출,부동산 담보신탁 수익증권증서 담보대출,https://obank.kbstar.com/quics?page=C103557&cc=b104363:b104516&isNew=N&prcode=LN30000001&QSL=F,,영업점,최고 대출가능금액 이내
+전월세/반환보증,국민주택기금 만기대환 주택전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000129&QSL=F,주택도시기금 전세자금대출 만기 대환을 위한 전세자금 대출상품,영업점,최고 대출가능금액 이내
+전월세/반환보증,KB 주택전세자금대출 (은행재원 협약보증),https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000026&QSL=F,고객님의 전세금을 지원하는,영업점,최고 4억4천4백만원
+전월세/반환보증,징검다리전세자금보증 주택전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000042&QSL=F,제2금융권 전세대출 상환지원,영업점,최고 대출가능금액 이내
+전월세/반환보증,목돈 안드는 행복 주택전세자금대출[2022.9.30판매중단],https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000049&QSL=F,한국주택금융공사 전세대출,영업점,최고 2억6천6백6십만원
+전월세/반환보증,정책서민금융 이용자 특례보증 전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000104&QSL=F,정책서민금융 이용자의 이자부담을 덜어주는,영업점,최고 8천만원
+전월세/반환보증,KB 신혼부부 전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000166&QSL=F,신혼부부 및 결혼예정자를 위한,영업점,최고 2억원
+전월세/반환보증,KB 다둥이 전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000167&QSL=F,미성년 자녀 2인 이상 다둥이가구를 위한,영업점,최고 2억원
+전월세/반환보증,[특판]KB 든든 주택전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001331&QSL=F,MOR 연동 24개월 변동금리를 사용하는 KB 주택전세자금대출 (은행재원 협약보증),영업점,최고 4억4천4백만원
+전월세/반환보증,전세사기피해자 특례보증 전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001349&QSL=F,국토교통부의 전세사기피해자로 결정을 받은 고객님을 위한,영업점,최고 1억원
+전월세/반환보증,KB전세금안심대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000064&QSL=F,전세보증금이 걱정될 때,영업점,최고 4억원
+전월세/반환보증,[특판] KB 든든 전세금안심대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001332&QSL=F,MOR 연동 24개월 변동금리를 사용하는 KB 전세금안심대출,영업점,최고 4억원
+전월세/반환보증,KB 플러스 전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000041&QSL=F,고객님의 전세금을 지원하는,영업점,최고 5억원
+전월세/반환보증,KB 청년 맞춤형 전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000156&QSL=F,대학생 등 무소득자도 최대 2억원까지!,스타뱅킹,최고 2억원
+전월세/반환보증,서울특별시 신혼부부 임차보증금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000105&QSL=F,서울특별시 융자추천 고객 대상,영업점,최고 3억원
+전월세/반환보증,KB스타 전세자금대출(HF_한국주택금융공사) NEW,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001362&QSL=F,NEW,스타뱅킹,최고 2억2천2백만원
+전월세/반환보증,KB 군 간부 전세자금대출(기본),https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000140&QSL=F,국방부 협약 전세자금대출,영업점,최고 대부승인금액 이내
+전월세/반환보증,KB스타 전세자금대출(HUG_주택도시보증공사) NEW,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001364&QSL=F,NEW,스타뱅킹,최고 4억원
+전월세/반환보증,KB 군 간부 월세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000164&QSL=F,국방부 협약 월세자금대출,영업점,최고 월세 대부승인금액의 2배 이내
+전월세/반환보증,KB스타 전세자금대출(갈아타기)(HF_한국주택금융공사),https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001378&QSL=F,전세자금대출 갈아타기 전용상품(비대면전용),스타뱅킹,최고 2억2천2백만원
+전월세/반환보증,KB 군 간부 전세자금대출(추가),https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000142&QSL=F,KB 군 간부 전세자금대출(기본) 보유 고객 대상 추가 전세자금대출,영업점,최고 5억원
+전월세/반환보증,KB스타 전세자금대출(SGI_서울보증보험) NEW,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001363&QSL=F,NEW,스타뱅킹,최고 5억원
+전월세/반환보증,KB스타 전세자금대출(갈아타기)(SGI_서울보증보험),https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001379&QSL=F,전세자금대출 갈아타기 전용상품(비대면전용),스타뱅킹,최고 5억원
+전월세/반환보증,KB WELCOME PLUS 전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001120&QSL=F,외국인 또는 외국국적동포 고객님께 최대 2억원까지 신규전세자금을 지원하는 대출상품입니다,영업점,최고 2억원
+전월세/반환보증,KB 부분분할 전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001283&QSL=F,대출금의 5% 이상 분할상환하고 잔액은 만기에 일시상환하는,영업점,최고 2억2천2백만원
+전월세/반환보증,KB 플러스 전세자금대출 Ⅱ,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000077&QSL=F,우량고객을 위한 전세금 대출,영업점,최고 2억원
+전월세/반환보증,서울특별시 청년 임차보증금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000084&QSL=F,판매중단상품,영업점,최고 2천5백만원
+전월세/반환보증,KB 1코노미 오피스텔 전세자금대출[2022.9.30판매중단],https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000092&QSL=F,1코노미를 위한 주거지원 상품,영업점,최고 2억2천2백만원
+전월세/반환보증,KB 주거행복 월세대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000147&QSL=F,보증금 있는 월세계약을 체결한 고객에게 월세자금을 지원하는 대출상품,영업점,최고 5천만원
+전월세/반환보증,KB 청년 맞춤형 월세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000155&QSL=F,대학생 등 무소득자도 최대 1천2백만원까지!,영업점,최고 1천2백만원
+전월세/반환보증,서울특별시 계약갱신요구권 만료자 전세자금대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001323&QSL=F,계약갱신요구권 행사 후 만료자에 대해 지원하는 서울특별시 협약 상품,영업점,"최고 최대 2억원"
+전월세/반환보증,KB스타 전세자금대출(갈아타기)(HUG_주택도시보증공사),https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20001380&QSL=F,전세자금대출 갈아타기 전용상품(비대면전용),스타뱅킹,최고 4억원
+전월세/반환보증,목돈 안드는 드림전세대출[2022.9.30판매중단],https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000050&QSL=F,내집 담보로 전세금 빌릴 때,영업점,최고 5천만원
+전월세/반환보증,광주광역시 재난관리기금 협약대출,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN20000130&QSL=F,광주광역시 융자추천고객 대상,영업점,최고 3천만원
+전월세/반환보증,전세보증금반환보증(단독),https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN35000559&QSL=F,전세보증금 반환을 보장하는 보증상품,스타뱅킹,최고 5억원
+전월세/반환보증,전세지킴보증,https://obank.kbstar.com/quics?page=C103507&cc=b104363:b104516&isNew=N&prcode=LN35000560&QSL=F,공사전세대출을 받고 추가로 가입이 가능한 전세반환보증!,스타뱅킹,최고 7억원
+자동차대출,KB 매직카대출(신차 구매用),https://obank.kbstar.com/quics?page=C103573&cc=b104363:b104516&isNew=N&prcode=LN20000107&QSL=F,신차 구매 자금도 은행방문 없이!,스타뱅킹,최고 6천만원
+자동차대출,KB 매직카대출(신차),https://obank.kbstar.com/quics?page=C103573&cc=b104363:b104516&isNew=N&prcode=LN20000047&QSL=F,신차 구매에 필요한 자금은,영업점,최고 6천만원
+자동차대출,KB 매직카대출(중고차 구매用),https://obank.kbstar.com/quics?page=C103573&cc=b104363:b104516&isNew=N&prcode=LN20000108&QSL=F,중고차 구매 자금도 은행방문 없이!,스타뱅킹,최고 4천만원
+자동차대출,KB 매직카대출(기존 중고차할부 대환用),https://obank.kbstar.com/quics?page=C103573&cc=b104363:b104516&isNew=N&prcode=LN20000112&QSL=F,중고차 대환대출도 은행방문 없이!,스타뱅킹,최고 4천만원
+자동차대출,KB 매직카대출(중고차),https://obank.kbstar.com/quics?page=C103573&cc=b104363:b104516&isNew=N&prcode=LN20000071&QSL=F,중고차 구매에 필요한 자금은,영업점,최고 4천만원
+자동차대출,KB 매직카대출(신차 대환),https://obank.kbstar.com/quics?page=C103573&cc=b104363:b104516&isNew=N&prcode=LN20000078&QSL=F,신차 할부금융 은행대출로 전환할 때,영업점,최고 6천만원
+자동차대출,KB 매직카대출(중고차 대환),https://obank.kbstar.com/quics?page=C103573&cc=b104363:b104516&isNew=N&prcode=LN20000079&QSL=F,중고차 할부금융 은행대출로 전환할 때,영업점,최고 4천만원
+자동차대출,KB 매직카대출(기존 신차할부 대환用),https://obank.kbstar.com/quics?page=C103573&cc=b104363:b104516&isNew=N&prcode=LN20000111&QSL=F,신차 대환대출도 은행방문 없이!,스타뱅킹,최고 6천만원
+자동차대출,KB 매직카 신용대출[2023.4.28 판매중단],https://obank.kbstar.com/quics?page=C103573&cc=b104363:b104516&isNew=N&prcode=LN20000169&QSL=F,자동차 신용대출 상품,영업점,최고 1억원
+집단중도금/이주비대출,집단 중도금대출,https://obank.kbstar.com/quics?page=C109229&cc=b104363:b104516&isNew=N&prcode=LN20001138&QSL=F,분양주택 중도금대출이 필요하시다면,인터넷 스타뱅킹,최고 사업장별 승인한도액 범위 이내
+집단중도금/이주비대출,재건축ㆍ재개발ㆍ리모델링 조합원에 대한 이주비대출,https://obank.kbstar.com/quics?page=C109229&cc=b104363:b104516&isNew=N&prcode=LN20000146&QSL=F,재건축ㆍ재개발ㆍ리모델링에 따른 이주비대출,인터넷 스타뱅킹,최고 세대당 이주비대출 승인금액 범위 내
+주택도시기금대출,내집마련디딤돌대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN20000300&QSL=F,무주택 국민의 내집마련을 지원하는,영업점,
+주택도시기금대출,버팀목 전세자금대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN20000313&QSL=F,무주택 국민의 주거안정을 지원하는,영업점,
+주택도시기금대출,중소기업 취업(창업) 청년 버팀목전세자금대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN20001159&QSL=F,중소기업 취업(창업)청년 주거안정을 지원하는,영업점,
+주택도시기금대출,입주자 앞 대환대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40000032&QSL=F,주택도시기금의 건설자금대출을 구입자금으로 전환,영업점,
+주택도시기금대출,청년전용 버팀목전세자금대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN02000003&QSL=F,만 34세이하 청년을 위한,영업점,
+주택도시기금대출,(비대면신청)내집마련디딤돌대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN20000051&QSL=F,"고객님의 정보에 맞추어 일반,생애최초신혼 디딤돌을 추천",인터넷 스타뱅킹,
+주택도시기금대출,신생아 특례 디딤돌대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40001049&QSL=F,,영업점,
+주택도시기금대출,청년전용 버팀목 전월세대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40001003&QSL=F,무주택 청년가구의 전월세지원을 위한 기금대출,영업점,
+주택도시기금대출,주거안정월세대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN20000076&QSL=F,무주택국민의 월세를 지원하는,영업점,
+주택도시기금대출,주거안정주택구입자금대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40000035&QSL=F,주거안정을 위한 주택구입자금 지원,영업점,
+주택도시기금대출,오피스텔구입자금대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40000036&QSL=F,오피스텔 구입시 필요자금은,영업점,
+주택도시기금대출,(비대면신청)버팀목 전세자금대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40000039&QSL=F,"고객님의 정보에 맞추어 일반,신혼,청년,중기청년 버팀목을 추천",인터넷 | 스타뱅킹,
+주택도시기금대출,수익 공유형 모기지 대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40000040&QSL=F,대출상환시 수익을 공유하는,영업점,
+주택도시기금대출,손익 공유형 모기지 대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40000041&QSL=F,대출상환시 수익/손실을 공유하는,영업점,
+주택도시기금대출,신혼희망타운전용 주택담보장기대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40001026&QSL=F,,영업점,
+주택도시기금대출,신생아 특례 버팀목전세대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40001045&QSL=F,,영업점,
+주택도시기금대출,부도임대주택경락자금대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40000030&QSL=F,부도임대주택 경락자금을 지원하는,영업점,
+주택도시기금대출,부도임대주택퇴거자전세자금대출,https://obank.kbstar.com/quics?page=C103998&cc=b104363:b104516&isNew=N&prcode=LN40000031&QSL=F,부도임대주택 퇴거임차인 전세금을 지원하는,영업점,
