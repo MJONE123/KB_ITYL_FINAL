@@ -7,4 +7,3 @@
     <typeAliases>
         <typeAlias alias="favorite" type="com.allabo.fyl.entity.Favorite" />
         <typeAlias alias="product" type="com.allabo.fyl.entity.Product" />
-        

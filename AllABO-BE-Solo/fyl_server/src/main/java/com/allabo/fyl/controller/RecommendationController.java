@@ -14,9 +14,13 @@ public class RecommendationController {
     @Autowired
     private RecommendationService recommendationService;
 
-    // 맞춤 추천 상품 조회 API
-    @GetMapping("/recommend")
-    public List<Recommendation> recommendProducts(@RequestParam int age, @RequestParam int income, @RequestParam String category) {
-        return recommendationService.getRecommendationsByPreferences(age, income, category);
+    // 설문 결과에 따른 맞춤 상품 추천 API
+    @GetMapping("/survey")
+    public List<Recommendation> getRecommendations(
+            @RequestParam(required = false) String benefits,
+            @RequestParam(required = false) Double annualFeeLimit,
+            @RequestParam(required = false) String issuer
+    ) {
+        return recommendationService.getRecommendationsBySurvey(benefits, annualFeeLimit, issuer);
     }
 }

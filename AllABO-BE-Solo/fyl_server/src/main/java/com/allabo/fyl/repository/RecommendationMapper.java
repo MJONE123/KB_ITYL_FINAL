@@ -9,6 +9,10 @@ import java.util.List;
 @Mapper
 public interface RecommendationMapper {
 
-    // 사용자 맞춤 추천 상품 목록 조회
-    List<Recommendation> selectRecommendationsByPreferences(@Param("age") int age, @Param("income") int income, @Param("category") String category);
+    // 설문 결과에 따른 맞춤 상품 필터링
+    List<Recommendation> selectRecommendationsBySurvey(
+            @Param("benefits") String benefits,
+            @Param("annualFeeLimit") Double annualFeeLimit,
+            @Param("issuer") String issuer
+    );
 }

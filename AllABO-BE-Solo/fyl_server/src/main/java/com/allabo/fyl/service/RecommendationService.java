@@ -13,8 +13,8 @@ public class RecommendationService {
     @Autowired
     private RecommendationMapper recommendationMapper;
 
-    // 사용자 맞춤 추천 상품 목록 조회
-    public List<Recommendation> getRecommendationsByPreferences(int age, int income, String category) {
-        return recommendationMapper.selectRecommendationsByPreferences(age, income, category);
+    // 설문 결과에 따른 맞춤 상품 추천
+    public List<Recommendation> getRecommendationsBySurvey(String benefits, Double annualFeeLimit, String issuer) {
+        return recommendationMapper.selectRecommendationsBySurvey(benefits, annualFeeLimit, issuer);
     }
 }
