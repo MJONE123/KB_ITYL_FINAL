@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.allabo.fyl.repository.RecommendationMapper">
+
+    <!-- 맞춤 추천 상품 목록 조회 -->
+    <select id="selectRecommendationsByPreferences" resultType="com.allabo.fyl.entity.Recommendation">
+        SELECT * FROM recommendations
+        WHERE age_range = #{age}
+          AND income_range = #{income}
+          AND category = #{category}
+    </select>
+
+</mapper>

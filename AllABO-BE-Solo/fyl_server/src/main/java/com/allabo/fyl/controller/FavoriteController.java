@@ -17,19 +17,24 @@ public class FavoriteController {
     @Autowired
     private FavoriteService favoriteService;
 
-    // 즐겨찾기 추가 (로그인된 사용자만 사용 가능)
+    // 즐겨찾기 추가
     @PostMapping("/add")
     public void addFavorite(@AuthenticationPrincipal UserDetails userDetails, @RequestBody FavoriteDto favoriteDto) {
-        // 로그인된 사용자 정보를 이용해 즐겨찾기 추가
-        String username = userDetails.getUsername();
-        favoriteService.addFavorite(username, favoriteDto.getProductId());
+        Long userId = Long.parseLong(userDetails.getUsername()); // 사용자 ID 가져오기 (예시)
+        favoriteService.addFavorite(userId, favoriteDto.getProductId(), favoriteDto.getProductType());
     }
 
-    // 사용자별 즐겨찾기 목록 조회 (로그인된 사용자만 사용 가능)
+    // 즐겨찾기 목록 조회
     @GetMapping("/list")
     public List<Favorite> getFavorites(@AuthenticationPrincipal UserDetails userDetails) {
-        // 로그인된 사용자 정보를 이용해 즐겨찾기 목록 조회
-        String username = userDetails.getUsername();
-        return favoriteService.getFavoritesByUsername(username);
+        Long userId = Long.parseLong(userDetails.getUsername()); // 사용자 ID 가져오기
+        return favoriteService.getFavoritesByUserId(userId);
+    }
+
+    // 즐겨찾기 삭제
+    @DeleteMapping("/remove")
+    public void removeFavorite(@AuthenticationPrincipal UserDetails userDetails, @RequestBody FavoriteDto favoriteDto) {
+        Long userId = Long.parseLong(userDetails.getUsername()); // 사용자 ID 가져오기
+        favoriteService.removeFavorite(userId, favoriteDto.getProductId(), favoriteDto.getProductType());
     }
 }

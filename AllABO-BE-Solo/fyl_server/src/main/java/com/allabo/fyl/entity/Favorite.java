@@ -1,29 +1,19 @@
 package com.allabo.fyl.entity;
 
-import javax.persistence.*;
-
-@Entity
 public class Favorite {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;  // 즐겨찾기한 사용자 정보
-
-    @ManyToOne
-    @JoinColumn(name = "product_id")
-    private Product product;  // 즐겨찾기한 상품 정보
+    private Long userId;
+    private Long productId;
+    private String productType;  // 금융 상품 종류 (예: 신용카드, 예금 등)
 
     // 기본 생성자
     public Favorite() {}
 
     // 생성자
-    public Favorite(User user, Product product) {
-        this.user = user;
-        this.product = product;
+    public Favorite(Long userId, Long productId, String productType) {
+        this.userId = userId;
+        this.productId = productId;
+        this.productType = productType;
     }
 
     // Getter and Setter
@@ -35,19 +25,27 @@ public class Favorite {
         this.id = id;
     }
 
-    public User getUser() {
-        return user;
+    public Long getUserId() {
+        return userId;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 
-    public Product getProduct() {
-        return product;
+    public Long getProductId() {
+        return productId;
     }
 
-    public void setProduct(Product product) {
-        this.product = product;
+    public void setProductId(Long productId) {
+        this.productId = productId;
+    }
+
+    public String getProductType() {
+        return productType;
+    }
+
+    public void setProductType(String productType) {
+        this.productType = productType;
     }
 }
