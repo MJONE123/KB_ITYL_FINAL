@@ -20,10 +20,17 @@ public class FavoriteController {
     private FavoriteService favoriteService;
 
     // 즐겨찾기 추가
+//    @PostMapping("/add")
+//    public void addFavorite(@AuthenticationPrincipal UserDetails userDetails, @RequestBody FavoriteDto favoriteDto) {
+//        Long userId = Long.parseLong(userDetails.getUsername()); // 사용자 ID 가져오기 (예시)
+//        favoriteService.addFavorite(userId, favoriteDto.getProductId(), favoriteDto.getProductType());
+//    }
     @PostMapping("/add")
     public void addFavorite(@AuthenticationPrincipal UserDetails userDetails, @RequestBody FavoriteDto favoriteDto) {
+        System.out.println(favoriteDto);
         Long userId = Long.parseLong(userDetails.getUsername()); // 사용자 ID 가져오기 (예시)
         favoriteService.addFavorite(userId, favoriteDto.getProductId(), favoriteDto.getProductType());
+//        favoriteService.addFavorite(, favoriteDto.getProductId(), favoriteDto.getProductType());
     }
 
     // 즐겨찾기 목록 조회
