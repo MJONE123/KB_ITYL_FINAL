@@ -31,6 +31,11 @@ public class FavoriteController {
         Long userId = Long.parseLong(userDetails.getUsername()); // 사용자 ID 가져오기 (예시)
         favoriteService.addFavorite(userId, favoriteDto.getProductId(), favoriteDto.getProductType());
 //        favoriteService.addFavorite(, favoriteDto.getProductId(), favoriteDto.getProductType());
+
+//       @PostMapping("/add")
+//    public void addFavorite(@RequestBody FavoriteDto favoriteDto) {
+//        favoriteService.addFavorite(favoriteDto.getUserId(), favoriteDto.getProductId(), favoriteDto.getProductType());
+//    }
     }
 
     // 즐겨찾기 목록 조회
