@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body{-ms-overflow-style:none; }body::-webkit-scrollbar { display:none; }
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@layer base {
+  html {
+    font-family: 'Pretendard', sans-serif;
+  }
+}
+
+@layer utilities {
+  .bg-asset-back {
+    background-image: url('/images/AssetAnalyze/asset-backImg.png');
+    background-size: 90% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-rebalancing-back {
+    background-image: url('/images/AssetPlan/rebalancing-back.png');
+    background-size: 100% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+}
